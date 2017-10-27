@@ -1,0 +1,188 @@
+
+body{
+background-image:url(../Assets/Foto/coba1.jpeg);
+background-attachment: fixed;
+background-repeat:no-repeat;
+
+}
+
+h2{
+font-size:50px;
+color:#439889;
+}
+#logo {
+opacity:0.9;
+height:100px;
+width:100%;
+}
+
+.kotak {
+	font-size:30px;
+	height:150px;
+	margin:10px;
+}
+/* untuk cabang */
+
+
+.kotak_kontak{
+	background-color:white;
+	max-width:auto%;
+	height:auto;
+	float:center;
+	padding:15px;
+	margin:50px;
+	text-align:Left;
+	font-weight:bold;	
+	color:#53bd84;
+}
+
+.logo_kontak{
+height:3%;
+width:8%;
+}
+.gambar_cabang{
+	width:10%;
+	height:10%;
+}
+
+.kotak_warna {
+	font-size:30px;
+	height:150px;
+	background-color:white;
+}
+
+h1 {
+	font-family:"Verdana";
+	font-size:20px;
+	}
+	
+#jarak {
+	width: 50px;
+    height: 50px;
+    background: none;
+    margin: 10px;
+}
+
+.paragrap {
+	font-size:40px;
+	font-family:Uni Sans Heavy Italic CAPS,Times New Roman;
+	color:#439889;
+	line-height:1;
+	font-weight:lighter;
+	text-shadow:4px 2px #eeeeee;
+	padding:10px;
+}
+
+
+#menu li a {
+	color:#ffffff;
+	font-family: myFirstFont;
+	font-weight: bold;
+    display: inline;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: underline;
+    font-style:oblique;
+    font-size:30px;
+}
+#menu ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    float: none;
+    top:65px; 
+    width:190px;
+}
+
+#menu ul {
+    list-style: none;
+    padding:0px;
+
+}
+
+#menu ul li {
+    float: left;
+    line-height: 65px;
+    margin:10px;
+    text-indent:30px;
+
+}
+
+#menu ul li a {
+    float:left; 
+    display:block; 
+    text-align:center; 
+    text-decoration:none; 
+}
+
+#menu ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    float: left;
+    top:65px; 
+}
+
+#menu ul li a:hover { 
+    display:block;
+}
+
+#menu ul li:hover ul {
+    display:block;
+}
+
+#menu ul ul li a {
+    display:block;
+    padding-left:px; 
+    text-align:left; 
+    height: 60px;
+    line-height: 60px;
+    float:left;
+}
+
+#menu ul ul li a:hover {
+    background-color: #439889;
+}
+
+.foto_pegawai{
+max-width:auto;
+height:20%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  display: block;
+  width: 20%;
+  height: 10%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #439889;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}

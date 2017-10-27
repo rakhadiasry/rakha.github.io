@@ -1,0 +1,35 @@
+h1 {
+	color:blue;
+	background:white;
+}
+
+.row_ganjil {
+	background-color: blanchedalmond;;
+	color:red;
+}
+
+table {
+	border-style: solid;
+    border-width: 2px;
+}
+
+p {
+	font-family :"Verdana","Times New Roman";
+	font-size : 30px;
+}
+
+th {
+	background-color:yellow;
+	color: #ff000;
+}
+
+#sttnf {
+	color: #ff000;
+	font-family:serif;
+	font-weight:bold;
+}
+
+body {
+	background-color:lightblue;
+}
+
